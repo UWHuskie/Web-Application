@@ -8,13 +8,17 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header {
-    background-color: rgb(245, 20, 20);
+    height: 10vh;
+    color: blue;
+    background-color: black;
      display:flex;
      flex-direction: row;
      justify-content: space-between;
      align-items: center;
+
 }
 nav a {
+    color: white;
     text-decoration: none;
     margin-right: 19px;font-size:larger;
     text-decoration-line: underline;
@@ -24,54 +28,120 @@ nav a {
     width: 100%;
     background-color: royalblue;
     position: relative; 
+    background-image: url(images-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .5;
+
 }
 .hero-subtitle {
     position: absolute;
     bottom: 10%;
     left: 75%;
-    /* padding: 200%, solid, rgb(234, 238, 248); */
 }
- section{
+ section {
      display:flex;
      align-items:center;
  }
- section h1 {
-     flex:0 0 20%;
+ section h1{
+     font-size: larger;
+     flex-basis: 25%;
      text-align: right;
      padding-right: 15px;
-     border-right: 1px solid black;  
  }
- section div {
+  section div {
      flex:0 0 75%;
+     border-left: 3px solid black;
  }
  section div p {
      margin-bottom: 15px;
+     margin-left: 15px;
  }
 section .work-container{
-    background-color: blueviolet;
     display:flex;
-    justify-content: center;
-
+    flex-wrap: wrap;
+     padding-left: 15px; 
+    gap: 15px;
+    justify-content: space-between;  
 }
 .surf-report{
-    height: 350px;
-    flex-basis: 100%;
-    background-color: brown;
+    height: 600px;
+    width: 100%;
+    background-image: url(download\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .5;
 }
-section div a {
+.led-wall{
+    background-color: royalblue;
+    background-image: url(images-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .5;
+}
+.item{
+    height: 225px;
+    width: 48%; 
+   
+ }
+.calculator{
+    background-color: royalblue;
+    background-image: url(images-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .5;
+}
+.pastel-puzzles{
+    background-color: royalblue;
+    background-image: url(images-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .5;
+}
+.run-buddy{
+    background-color: royalblue;
+    background-image: url(download-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .5;
+}
+section div a  {
     text-decoration: none;
     display:flex;
 }
-footer {
-    text-decoration: none;
-    margin-right: 19px;font-size:small;
-    text-align: center;
-    background-color: rgb(245, 20, 20);
-     line-height: -150px; 
-    text-decoration-line: underline; 
-    display:flex;
-    flex-direction: row;
+.image-text{
+    color: black;
+    position: relative;
+    height: 3.5em;
+    width: 10vw;
+     bottom: -65%; 
+    background-color: royalblue;
+}
+footer  {
+    height: 10vh;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+footer h4 ul {
+    margin-right: 0% 50%;
+    font-size:larger;
+    text-align: center; 
+   
+    display: flex;
+    flex-direction: row;
+    
     letter-spacing: 0px;
-    word-spacing: 130px;
+    word-spacing: 60px;
+}
+footer h4 ul li {
+    list-style: none;
+    margin-left: 3em;
+    text-decoration-line: underline;  
 }
