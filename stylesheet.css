@@ -4,9 +4,11 @@
     padding: 0;
     margin: 0;
 }
+/* Setting the dody to the specific font style. */
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/* The header of 10 veiw port, and color, background to use the flexbox commands, to line up in the center */
 header {
     height: 10vh;
     color: blue;
@@ -17,12 +19,14 @@ header {
      align-items: center;
 
 }
+/* Setting the nav to the anchor tags text, text decoration, and margin to the right at 19 pixels and to be underlined. */
 nav a {
     color: white;
     text-decoration: none;
     margin-right: 19px;font-size:larger;
     text-decoration-line: underline;
 }
+/* Setting the hero class to a specific height, width, background color, positioned, and background edits. */
 .hero {
     height: 300px;
     width: 100%;
@@ -35,35 +39,42 @@ nav a {
     opacity: .5;
 
 }
+/* Setting the hero-subtitle class to a absolute fixed position from the bottom and to the left. */
 .hero-subtitle {
     position: absolute;
     bottom: 10%;
     left: 75%;
 }
+/* Setting the sections to display and align in the center. */
  section {
      display:flex;
      align-items:center;
  }
+ /* Setting the section, header one to a larger font and aligned with a padding. */
  section h1{
      font-size: larger;
      flex-basis: 25%;
      text-align: right;
      padding-right: 15px;
  }
+ /* Setting the section, div to a flex position and bordering to the left and a solid black outline */
   section div {
      flex:0 0 75%;
      border-left: 3px solid black;
  }
+ /* Setting the section, div, paragraph tag to have a specific margin. */
  section div p {
      margin-bottom: 15px;
      margin-left: 15px;
  }
+ /* Setting the section, class work container to display flex, to wrap, with a padding, gap, and to have space between each content. */
 section .work-container{
     display:flex;
     flex-wrap: wrap;
      padding-left: 15px; 
     gap: 15px;
-    justify-content: space-between;  
+    justify-content: space-between; 
+ /*Setting the classes surf report, led wall, item, calculator, pastel puzzle, and run buddy to a specific position in the webpage.  */
 }
 .surf-report{
     height: 600px;
@@ -82,6 +93,7 @@ section .work-container{
     background-position: center;
     opacity: .5;
 }
+/* Setting the class items to have a width and height. */
 .item{
     height: 225px;
     width: 48%; 
@@ -111,10 +123,13 @@ section .work-container{
     background-position: center;
     opacity: .5;
 }
+/* Setting the section, div, anchor tag to adisplay a flex box. */
 section div a  {
     text-decoration: none;
     display:flex;
 }
+
+/* Setting the class image-text to have a font color black, at a relative position, height, width and baclground color. */
 .image-text{
     color: black;
     position: relative;
@@ -123,12 +138,14 @@ section div a  {
      bottom: -65%; 
     background-color: royalblue;
 }
+/* Formating the footer */
 footer  {
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* Formatting the footer, header four, unordered list to display specifically on the webpage. */
 footer h4 ul {
     margin-right: 0% 50%;
     font-size:larger;
@@ -140,6 +157,7 @@ footer h4 ul {
     letter-spacing: 0px;
     word-spacing: 60px;
 }
+/* Setttng the footer, header four, unordered list, list to a specific look. */
 footer h4 ul li {
     list-style: none;
     margin-left: 3em;
